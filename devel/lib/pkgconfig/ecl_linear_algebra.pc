@@ -1,0 +1,1 @@
+/home/xy/simulation_ws/devel/.private/ecl_linear_algebra/lib/pkgconfig/ecl_linear_algebra.pc

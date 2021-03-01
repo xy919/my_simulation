@@ -1,0 +1,1 @@
+/home/xy/simulation_ws/devel/.private/ecl_streams/share/ecl_streams/cmake/ecl_streamsConfig.cmake

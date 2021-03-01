@@ -1,0 +1,1 @@
+/home/xy/simulation_ws/devel/.private/ecl_command_line/share/ecl_command_line/cmake/ecl_command_lineConfig.cmake

@@ -1,0 +1,2 @@
+set(my_gazebo_MESSAGE_FILES "/home/xy/simulation_ws/src/my_gazebo/msg/ConveyorBeltState.msg;/home/xy/simulation_ws/src/my_gazebo/msg/VacuumGripperState.msg;/home/xy/simulation_ws/src/my_gazebo/msg/Proximity.msg;/home/xy/simulation_ws/src/my_gazebo/msg/Model.msg;/home/xy/simulation_ws/src/my_gazebo/msg/LogicalCameraImage.msg")
+set(my_gazebo_SERVICE_FILES "/home/xy/simulation_ws/src/my_gazebo/srv/ConveyorBeltControl.srv;/home/xy/simulation_ws/src/my_gazebo/srv/VacuumGripperControl.srv")

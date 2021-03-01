@@ -1,0 +1,1 @@
+/home/xy/simulation_ws/devel/.private/ecl_devices/share/ecl_devices/cmake/ecl_devicesConfig-version.cmake

@@ -1,0 +1,1125 @@
+<?xml version="1.0" ?>
+<robot name="white_maze">
+  <link name="world"/>
+  <link name="white_maze__link_0">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="-1.23381 -1.58127  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="-1.23381 -1.58127  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="-0.62749 -1.57445  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="-0.62749 -1.57445  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_0">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="-0.02374 -1.57344  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="-0.02374 -1.57344  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_1">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="0.58258 -1.57153  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="0.58258 -1.57153  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_1_clone">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0       0      -1.57264" xyz="1.49724 -1.25172  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0       0      -1.57264" xyz="1.49724 -1.25172  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_1_clone_0">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="1.21099  1.50565  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="1.21099  1.50565  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_1_clone_1">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="0.59366  1.50999  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="0.59366  1.50999  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_1_clone_2">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="-0.01941  1.51088  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="-0.01941  1.51088  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_1_clone_3">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="-0.63017  1.51122  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="-0.63017  1.51122  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_1_clone_4">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="-1.24431  1.51418  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="-1.24431  1.51418  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_1_clone_clone">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0       0      -1.57264" xyz="1.504   -0.64001  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0       0      -1.57264" xyz="1.504   -0.64001  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_1_clone_clone_0">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0       0      -1.57264" xyz="1.50232 -0.03313  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0       0      -1.57264" xyz="1.50232 -0.03313  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_1_clone_clone_1">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0       0      -1.57264" xyz="1.49955  0.57555  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0       0      -1.57264" xyz="1.49955  0.57555  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_1_clone_clone_1_clone">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0       0      -1.57264" xyz="-1.54904 -1.27572  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0       0      -1.57264" xyz="-1.54904 -1.27572  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_1_clone_clone_1_clone_0">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0       0      -1.57264" xyz="-1.55915 -0.64957  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0       0      -1.57264" xyz="-1.55915 -0.64957  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_1_clone_clone_1_clone_0_clone">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0       0      -1.57264" xyz="-0.88303 -0.67117  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0       0      -1.57264" xyz="-0.88303 -0.67117  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_1_clone_clone_1_clone_0_clone_clone">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0       0      -1.57264" xyz="-0.27619  0.01105  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0       0      -1.57264" xyz="-0.27619  0.01105  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_1_clone_clone_1_clone_0_clone_clone_0">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0       0      -1.57264" xyz="-0.27194  0.64084  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0       0      -1.57264" xyz="-0.27194  0.64084  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_1_clone_clone_1_clone_0_clone_clone_1">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0       0      -1.57264" xyz="0.90805  0.57311  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0       0      -1.57264" xyz="0.90805  0.57311  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_1_clone_clone_1_clone_0_clone_clone_2">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0       0      -1.57264" xyz="0.28851  1.19873  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0       0      -1.57264" xyz="0.28851  1.19873  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_1_clone_clone_1_clone_0_clone_clone_3">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0       0      -1.57264" xyz="-0.86681  1.09005  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0       0      -1.57264" xyz="-0.86681  1.09005  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_1_clone_clone_1_clone_1">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0       0      -1.57264" xyz="-1.55831 -0.02593  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0       0      -1.57264" xyz="-1.55831 -0.02593  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_1_clone_clone_1_clone_2">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0       0      -1.57264" xyz="-1.56812  0.61606  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0       0      -1.57264" xyz="-1.56812  0.61606  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_1_clone_clone_1_clone_3">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0       0      -1.57264" xyz="-1.56658  1.22457  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0       0      -1.57264" xyz="-1.56658  1.22457  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_1_clone_clone_2">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0       0      -1.57264" xyz="1.51631  1.18395  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0       0      -1.57264" xyz="1.51631  1.18395  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_1_clone_clone_3">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0       0      -1.57264" xyz="0.86234 -0.64185  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0       0      -1.57264" xyz="0.86234 -0.64185  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_2">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="1.1966 -1.5721  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="1.1966 -1.5721  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_3">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="-1.19167 -0.97352  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="-1.19167 -0.97352  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_3_clone">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="-0.59031  0.32053  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="-0.59031  0.32053  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_3_clone_0">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="0.59595  0.2703   0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="0.59595  0.2703   0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_3_clone_1">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="0.5967   0.88593  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="0.5967   0.88593  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_4">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="-0.57296 -0.97624  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="-0.57296 -0.97624  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_0_clone_4_clone">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="0.55591 -0.95612  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="0.55591 -0.95612  0"/>
+      <geometry>
+        <box size="0.55 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_1">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="-0.93059 -1.57378  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="-0.93059 -1.57378  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_1_clone">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="-0.32577 -1.57426  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="-0.32577 -1.57426  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_1_clone_0">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="0.27958 -1.57311  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="0.27958 -1.57311  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_1_clone_1">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="0.88847 -1.57126  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="0.88847 -1.57126  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_1_clone_2">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="1.49934 -1.55485  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="1.49934 -1.55485  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_1_clone_3">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="1.4991  -0.94594  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="1.4991  -0.94594  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_1_clone_3_clone">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="1.5027  -0.33593  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="1.5027  -0.33593  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_1_clone_3_clone_0">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="1.49791  0.27027  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="1.49791  0.27027  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_1_clone_3_clone_1">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="1.50496  0.87796  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="1.50496  0.87796  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_1_clone_3_clone_2">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="1.51848  1.49787  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="1.51848  1.49787  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_1_clone_3_clone_2_clone">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="0.9027   1.50694  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="0.9027   1.50694  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_1_clone_3_clone_2_clone_0">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="0.28453  1.50954  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="0.28453  1.50954  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_1_clone_3_clone_2_clone_1">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="-0.32559  1.50996  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="-0.32559  1.50996  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_1_clone_3_clone_2_clone_2">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="-0.93687  1.50774  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="-0.93687  1.50774  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_1_clone_3_clone_2_clone_3">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="-1.54967  1.51744  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="-1.54967  1.51744  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_1_clone_3_clone_2_clone_4">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="-1.56617  0.92095  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="-1.56617  0.92095  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_1_clone_3_clone_2_clone_4_clone">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="-0.88225 -0.97845  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="-0.88225 -0.97845  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_1_clone_3_clone_2_clone_5">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="-1.57457  0.29911  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="-1.57457  0.29911  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_1_clone_3_clone_2_clone_6">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="-1.56212 -0.34233  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="-1.56212 -0.34233  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_1_clone_3_clone_2_clone_6_clone">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="-0.27781  0.32681  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="-0.27781  0.32681  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_1_clone_3_clone_2_clone_6_clone_0">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="0.90268  0.26435  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="0.90268  0.26435  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_1_clone_3_clone_2_clone_6_clone_1">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="0.91039  0.88214  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="0.91039  0.88214  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_1_clone_3_clone_2_clone_6_clone_2">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="0.28595  0.88426  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="0.28595  0.88426  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_1_clone_3_clone_2_clone_7">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="-1.55596 -0.96312  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="-1.55596 -0.96312  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_1_clone_3_clone_2_clone_8">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="-1.53728 -1.58411  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="-1.53728 -1.58411  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="white_maze__link_1_clone_3_clone_3">
+    <inertial>
+      <mass value="1"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0.166667" ixy="0" ixz="0" iyy="0.166667" iyz="0" izz="0.166667"/>
+    </inertial>
+    <collision name="white_maze__collision">
+      <origin rpy="0  0  0" xyz="0.87021 -0.95304  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </collision>
+    <visual name="white_maze__visual">
+      <origin rpy="0  0  0" xyz="0.87021 -0.95304  0"/>
+      <geometry>
+        <box size="0.05 0.05 0.4"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

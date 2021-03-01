@@ -1,0 +1,1 @@
+/home/xy/simulation_ws/devel/.private/kobuki_qtestsuite/share/kobuki_qtestsuite/cmake/kobuki_qtestsuiteConfig.cmake

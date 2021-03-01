@@ -1,0 +1,1 @@
+/home/xy/simulation_ws/devel/.private/openni2_camera/share/common-lisp/ros/openni2_camera/srv/openni2_camera-srv.asd

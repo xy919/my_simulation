@@ -1,0 +1,8 @@
+prefix=/home/xy/simulation_ws/devel/.private/ecl_ipc
+
+Name: ecl_ipc
+Description: Description of ecl_ipc
+Version: 0.62.2
+Cflags: -I/home/xy/simulation_ws/src/ecl_core/ecl_ipc/include
+Libs: -L${prefix}/lib -lecl_ipc
+Requires: ecl_config ecl_errors ecl_time_lite ecl_exceptions ecl_time

@@ -1,0 +1,4 @@
+Symlinking /home/xy/simulation_ws/devel/lib/pkgconfig/openni2_launch.pc
+Symlinking /home/xy/simulation_ws/devel/lib/python2.7/dist-packages/openni2_launch/__init__.py
+Symlinking /home/xy/simulation_ws/devel/share/openni2_launch/cmake/openni2_launchConfig-version.cmake
+Symlinking /home/xy/simulation_ws/devel/share/openni2_launch/cmake/openni2_launchConfig.cmake

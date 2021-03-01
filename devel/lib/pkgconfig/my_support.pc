@@ -1,0 +1,1 @@
+/home/xy/simulation_ws/devel/.private/my_support/lib/pkgconfig/my_support.pc

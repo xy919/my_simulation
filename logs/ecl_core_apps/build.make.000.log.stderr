@@ -1,0 +1,26 @@
+[01m[K/home/xy/simulation_ws/src/ecl_core/ecl_core_apps/src/benchmarks/exceptions.cpp:37:11:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void f2() [01;35m[Kthrow[m[K(StandardException) {
+           [01;35m[K^~~~~[m[K
+[01m[K/home/xy/simulation_ws/src/ecl_core/ecl_core_apps/src/benchmarks/exceptions.cpp:42:11:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void f3() [01;35m[Kthrow[m[K(StandardException) {
+           [01;35m[K^~~~~[m[K
+[01m[K/home/xy/simulation_ws/src/ecl_core/ecl_core_apps/src/benchmarks/exceptions.cpp:49:11:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void f4() [01;35m[Kthrow[m[K(StandardException) {
+           [01;35m[K^~~~~[m[K
+[01m[K/home/xy/simulation_ws/src/ecl_core/ecl_core_apps/src/benchmarks/exceptions.cpp:56:11:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void f5() [01;35m[Kthrow[m[K(StandardException) {
+           [01;35m[K^~~~~[m[K
+[01m[K/home/xy/simulation_ws/src/ecl_core/ecl_core_apps/src/benchmarks/exceptions.cpp:60:11:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void f6() [01;35m[Kthrow[m[K(StandardException) {
+           [01;35m[K^~~~~[m[K
+[01m[K/home/xy/simulation_ws/src/ecl_core/ecl_core_apps/src/benchmarks/exceptions.cpp:64:11:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void g1() [01;35m[Kthrow[m[K(StandardException) {
+           [01;35m[K^~~~~[m[K
+[01m[K/home/xy/simulation_ws/src/ecl_core/ecl_core_apps/src/benchmarks/exceptions.cpp:71:11:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ void g2() [01;35m[Kthrow[m[K(StandardException) {
+           [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/xy/simulation_ws/src/ecl_core/ecl_streams/include/ecl/streams.hpp:27:0[m[K,
+                 from [01m[K/home/xy/simulation_ws/src/ecl_core/ecl_core_apps/src/benchmarks/streams.cpp:17[m[K:
+[01m[K/home/xy/simulation_ws/src/ecl_core/ecl_streams/include/ecl/streams/socket_streams.hpp:112:54:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  SocketServerStream(const unsigned int &port_number) [01;35m[Kthrow[m[K(StandardException) {
+                                                      [01;35m[K^~~~~[m[K

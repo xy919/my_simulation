@@ -1,0 +1,8 @@
+prefix=/home/xy/simulation_ws/devel/.private/ecl_time
+
+Name: ecl_time
+Description: Description of ecl_time
+Version: 0.62.2
+Cflags: -I/home/xy/simulation_ws/src/ecl_core/ecl_time/include
+Libs: -L${prefix}/lib -lecl_time
+Requires: ecl_build ecl_config ecl_errors ecl_exceptions ecl_time_lite

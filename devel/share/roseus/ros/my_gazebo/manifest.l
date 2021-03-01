@@ -1,0 +1,1 @@
+/home/xy/simulation_ws/devel/.private/my_gazebo/share/roseus/ros/my_gazebo/manifest.l

@@ -1,0 +1,1 @@
+/home/xy/simulation_ws/devel/.private/ecl_eigen/share/ecl_eigen/cmake/ecl_eigenConfig.cmake

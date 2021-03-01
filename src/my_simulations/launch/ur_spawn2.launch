@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+    <param name="ur_description" command="$(find xacro)/xacro.py --inorder '$(find ur_description)/urdf/ur5_robot.urdf.xacro'" />
+    
+    <arg name="x" default="3"/>
+    <arg name="y" default="3"/>
+    <arg name="z" default="0"/>
+    
+    <node name="mybot_spawn" pkg="gazebo_ros" type="spawn_model" output="screen"
+          args="-urdf -param ur_description -model ur5 -x $(arg x) -y $(arg y) -z $(arg z)" />
+          
+</launch>
+

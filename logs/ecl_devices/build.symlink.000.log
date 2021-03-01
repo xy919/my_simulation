@@ -1,0 +1,5 @@
+Symlinking /home/xy/simulation_ws/devel/lib/libecl_devices.so
+Symlinking /home/xy/simulation_ws/devel/lib/pkgconfig/ecl_devices.pc
+Symlinking /home/xy/simulation_ws/devel/lib/ecl_devices/demo_serial_timeouts
+Symlinking /home/xy/simulation_ws/devel/share/ecl_devices/cmake/ecl_devicesConfig.cmake
+Symlinking /home/xy/simulation_ws/devel/share/ecl_devices/cmake/ecl_devicesConfig-version.cmake

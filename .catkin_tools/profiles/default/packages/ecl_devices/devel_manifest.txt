@@ -1,0 +1,7 @@
+ecl_core/ecl_devices
+/home/xy/simulation_ws/devel/.private/ecl_devices/cmake.lock /home/xy/simulation_ws/devel/./cmake.lock
+/home/xy/simulation_ws/devel/.private/ecl_devices/lib/libecl_devices.so /home/xy/simulation_ws/devel/lib/libecl_devices.so
+/home/xy/simulation_ws/devel/.private/ecl_devices/lib/pkgconfig/ecl_devices.pc /home/xy/simulation_ws/devel/lib/pkgconfig/ecl_devices.pc
+/home/xy/simulation_ws/devel/.private/ecl_devices/lib/ecl_devices/demo_serial_timeouts /home/xy/simulation_ws/devel/lib/ecl_devices/demo_serial_timeouts
+/home/xy/simulation_ws/devel/.private/ecl_devices/share/ecl_devices/cmake/ecl_devicesConfig.cmake /home/xy/simulation_ws/devel/share/ecl_devices/cmake/ecl_devicesConfig.cmake
+/home/xy/simulation_ws/devel/.private/ecl_devices/share/ecl_devices/cmake/ecl_devicesConfig-version.cmake /home/xy/simulation_ws/devel/share/ecl_devices/cmake/ecl_devicesConfig-version.cmake

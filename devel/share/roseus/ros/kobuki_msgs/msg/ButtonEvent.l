@@ -1,0 +1,1 @@
+/home/xy/simulation_ws/devel/.private/kobuki_msgs/share/roseus/ros/kobuki_msgs/msg/ButtonEvent.l

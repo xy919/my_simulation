@@ -1,0 +1,1 @@
+/home/xy/simulation_ws/devel/.private/ecl_formatters/share/ecl_formatters/cmake/ecl_formattersConfig-version.cmake

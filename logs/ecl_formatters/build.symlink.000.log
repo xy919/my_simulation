@@ -1,0 +1,5 @@
+Symlinking /home/xy/simulation_ws/devel/lib/libecl_formatters.so
+Symlinking /home/xy/simulation_ws/devel/lib/pkgconfig/ecl_formatters.pc
+Symlinking /home/xy/simulation_ws/devel/lib/ecl_formatters/demo_formatters
+Symlinking /home/xy/simulation_ws/devel/share/ecl_formatters/cmake/ecl_formattersConfig.cmake
+Symlinking /home/xy/simulation_ws/devel/share/ecl_formatters/cmake/ecl_formattersConfig-version.cmake

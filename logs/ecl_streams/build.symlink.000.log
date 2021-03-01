@@ -1,0 +1,6 @@
+Symlinking /home/xy/simulation_ws/devel/lib/libecl_streams.so
+Symlinking /home/xy/simulation_ws/devel/lib/pkgconfig/ecl_streams.pc
+Symlinking /home/xy/simulation_ws/devel/lib/ecl_streams/demo_console_streams
+Symlinking /home/xy/simulation_ws/devel/lib/ecl_streams/demo_log_streams
+Symlinking /home/xy/simulation_ws/devel/share/ecl_streams/cmake/ecl_streamsConfig.cmake
+Symlinking /home/xy/simulation_ws/devel/share/ecl_streams/cmake/ecl_streamsConfig-version.cmake

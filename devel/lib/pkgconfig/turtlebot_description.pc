@@ -1,0 +1,1 @@
+/home/xy/simulation_ws/devel/.private/turtlebot_description/lib/pkgconfig/turtlebot_description.pc

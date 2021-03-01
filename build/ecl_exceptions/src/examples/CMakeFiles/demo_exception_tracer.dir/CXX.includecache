@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xy/simulation_ws/src/ecl_core/ecl_exceptions/src/examples/exception_tracer.cpp
+ecl/config/ecl.hpp
+-
+execinfo.h
+-
+signal.h
+-
+cstdlib
+-
+exception
+-
+iostream
+-
+iostream
+-
+
+/opt/ros/melodic/include/ecl/config/ecl.hpp
+ecl_unknown.hpp
+/opt/ros/melodic/include/ecl/config/ecl_unknown.hpp
+
+/opt/ros/melodic/include/ecl/config/ecl_unknown.hpp
+limits
+-
+climits
+-
+cstdint
+-
+stdint.h
+-
+stdint.h
+-
+

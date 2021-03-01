@@ -1,0 +1,4 @@
+Symlinking /home/xy/simulation_ws/devel/lib/libecl_statistics.so
+Symlinking /home/xy/simulation_ws/devel/lib/pkgconfig/ecl_statistics.pc
+Symlinking /home/xy/simulation_ws/devel/share/ecl_statistics/cmake/ecl_statisticsConfig.cmake
+Symlinking /home/xy/simulation_ws/devel/share/ecl_statistics/cmake/ecl_statisticsConfig-version.cmake

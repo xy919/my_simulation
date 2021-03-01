@@ -1,0 +1,1 @@
+/home/xy/simulation_ws/devel/.private/ecl_mpl/share/ecl_mpl/cmake/ecl_mplConfig.cmake

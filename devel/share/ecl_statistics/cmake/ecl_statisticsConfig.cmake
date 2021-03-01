@@ -1,0 +1,1 @@
+/home/xy/simulation_ws/devel/.private/ecl_statistics/share/ecl_statistics/cmake/ecl_statisticsConfig.cmake

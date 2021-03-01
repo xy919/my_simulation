@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/xy/simulation_ws/build/ecl_type_traits/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_93908/fast"
+/usr/bin/make -f CMakeFiles/cmTC_93908.dir/build.make CMakeFiles/cmTC_93908.dir/build
+make[1]: Entering directory '/home/xy/simulation_ws/build/ecl_type_traits/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_93908.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_93908.dir/CheckSymbolExists.c.o   -c /home/xy/simulation_ws/build/ecl_type_traits/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_93908
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93908.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_93908.dir/CheckSymbolExists.c.o  -o cmTC_93908 
+CMakeFiles/cmTC_93908.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_93908.dir/build.make:97: recipe for target 'cmTC_93908' failed
+make[1]: *** [cmTC_93908] Error 1
+make[1]: Leaving directory '/home/xy/simulation_ws/build/ecl_type_traits/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_93908/fast' failed
+make: *** [cmTC_93908/fast] Error 2
+
+File /home/xy/simulation_ws/build/ecl_type_traits/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/xy/simulation_ws/build/ecl_type_traits/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1163d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1163d.dir/build.make CMakeFiles/cmTC_1163d.dir/build
+make[1]: Entering directory '/home/xy/simulation_ws/build/ecl_type_traits/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1163d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1163d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1163d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1163d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_1163d.dir/CheckFunctionExists.c.o  -o cmTC_1163d -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1163d.dir/build.make:97: recipe for target 'cmTC_1163d' failed
+make[1]: *** [cmTC_1163d] Error 1
+make[1]: Leaving directory '/home/xy/simulation_ws/build/ecl_type_traits/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1163d/fast' failed
+make: *** [cmTC_1163d/fast] Error 2
+
+

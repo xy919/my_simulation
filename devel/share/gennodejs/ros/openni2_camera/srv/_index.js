@@ -1,0 +1,1 @@
+/home/xy/simulation_ws/devel/.private/openni2_camera/share/gennodejs/ros/openni2_camera/srv/_index.js

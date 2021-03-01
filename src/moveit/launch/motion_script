@@ -1,0 +1,12 @@
+##use <write-correct-group-here>
+## Define sequence of instructions to move the robot
+
+use robot2
+go R2Up
+go R2PreGrasp
+go R2Place
+
+use robot1
+go R1Up
+go R1PreGrasp
+go R1Place

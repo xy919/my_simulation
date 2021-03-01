@@ -1,0 +1,4 @@
+Symlinking /home/xy/simulation_ws/devel/lib/libecl_ipc.so
+Symlinking /home/xy/simulation_ws/devel/lib/pkgconfig/ecl_ipc.pc
+Symlinking /home/xy/simulation_ws/devel/share/ecl_ipc/cmake/ecl_ipcConfig-version.cmake
+Symlinking /home/xy/simulation_ws/devel/share/ecl_ipc/cmake/ecl_ipcConfig.cmake
